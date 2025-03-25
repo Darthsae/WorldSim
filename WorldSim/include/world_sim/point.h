@@ -2,11 +2,17 @@
 #define POINT_H
 
 namespace WorldSim {
+    /**
+     * @struct Point
+     * @brief Represents a high resolution point using double precision.
+     *
+     * The Point structure represents a 3D point with high precision by using double precision.
+     */
     struct Point {
-        float x, y;
+        double x, y, z;
 
         Point();
-        Point(float x, float y);
+        Point(double x, double y, double z);
     };
 }
 #endif
