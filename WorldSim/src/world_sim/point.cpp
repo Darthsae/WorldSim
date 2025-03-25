@@ -7,7 +7,7 @@ Point::Point() {
     this->y = 0;
 }
 
-Point::Point(int32_t x, int32_t y) {
+Point::Point(float x, float y) {
     this->x = x;
     this->y = y;
 }

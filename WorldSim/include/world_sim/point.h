@@ -1,13 +1,12 @@
 #ifndef POINT_H
 #define POINT_H
-#include <stdfloat>
 
 namespace WorldSim {
     struct Point {
-        float32_t x, y;
+        float x, y;
 
         Point();
-        Point(int32_t x, int32_t y);
+        Point(float x, float y);
     };
 }
 #endif
