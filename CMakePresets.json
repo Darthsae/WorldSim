@@ -15,14 +15,14 @@
     "buildPresets": [
         {
             "name": "vcpkg-debug",
-            "displayName": "Visual Studio Build Tools 2022 Release - amd64 - Debug",
+            "displayName": "VS Build Tools 2022 Debug - amd64",
             "configurePreset": "vcpkg",
             "configuration": "Debug"
         },
         
         {
             "name": "vcpkg-release",
-            "displayName": "Visual Studio Build Tools 2022 Release - amd64 - Release",
+            "displayName": "VS Build Tools 2022 Release - amd64",
             "configurePreset": "vcpkg",
             "configuration": "Release"
         }
